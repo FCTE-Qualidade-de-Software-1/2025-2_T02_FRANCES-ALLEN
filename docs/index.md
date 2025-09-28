@@ -5,13 +5,13 @@ nav_order: 1
 
 # Avaliação da Qualidade do Site do Cebraspe
 
-!!! note "Equipe do Projeto"
-    - **Natália Rodrigues de Morais** – 221037975
-    - **Daniel Ferreira Santos Rabelo** – 222006632
-    - **Fellipe Pereira da Costa Silva** – 200017772
-    - **Henrique Carvalho Never** – 222006801
-    - **Kaio Macedo Santana** – 222006893
-    - **Maria Clara Alves de Sousa** – 221008329
+## Equipe
+- Natália Rodrigues de Morais - 221037975
+- Daniel Ferreira Santos Rabelo - 222006632
+- Fellipe Pereira da Costa Silva - 200017772 
+- Henrique Carvalho Never - 222006801
+- Kaio Macedo Santana - 222006893
+- Maria Clara Alves de Sousa - 221008329
 
 ---
 
