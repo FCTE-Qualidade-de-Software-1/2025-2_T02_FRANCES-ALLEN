@@ -71,4 +71,4 @@ As características de qualidade de software escolhidas para esta avaliação, c
 
 | Versão | Descrição | Responsável | Data  | Revisor(es) | Detalhes da Revisão | Data da revisão |
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
-| `1.0` | documentação inicial do readme | [Maria Clara](https://github.com/alvezclari) | 28/09/2025 | | | |
+| `1.0` | documentação inicial do readme | [Maria Clara](https://github.com/alvezclari) | 28/09/2025 |[Kaio Macedo](https://github.com/bigkaio)|Revisão minuciosa para verificar os fatos |28/10/2025 |
