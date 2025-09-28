@@ -1,51 +1,31 @@
-site_name: Avaliação da Qualidade do Site do Cebraspe
-repo_url: https://github.com/SEU-USUARIO/NOME-DO-REPO
-repo_name: NOME-DO-REPO
-site_url: https://SEU-USUARIO.github.io/NOME-DO-REPO
-
-nav:
-  - Início: "index.md"
-  - Fase 1 - Definição dos Requisitos:
-      - Fase 1: docs/fase1.md
-      - Fase 2: docs/fase2.md
-      - Fase 3: docs/fase3.md
-      - Fase 4: docs/fase4.md
-  - Tabelas de Contribuição:
-      - Ponto de Controle 1: docs/contribuicao1.md
-      - Ponto de Controle 2: docs/contribuicao2.md
-  - Outras Entregas:
-      - Atividades:
-          - Slide Avaliação de Software: docs/atividade1.md
-          - Objetivo de Medição: docs/gqm.md
-
+site_name: Avaliação do Cebraspe
+site_description: Projeto da disciplina FGA315 - Avaliação da Qualidade de Software
 theme:
   name: material
+  language: pt
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
   palette:
     - scheme: default
-      primary: orange
-      toggle:
-        icon: material/eye
-        name: Mudar para o modo escuro
+      primary: blue
+      accent: indigo
     - scheme: slate
-      primary: teal
+      primary: blue
+      accent: indigo
       toggle:
-        icon: material/eye-outline
-        name: Mudar para o modo claro
-
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
-plugins:
-  - search
-  - panzoom:
-      key: "none"
-      full_screen: True
+        icon: material/weather-night
+        name: Modo Noturno
+nav:
+  - Início: index.md
+  - Fases:
+      - "Fase 1 - Definição dos Requisitos": fase1.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SEU-REPO
