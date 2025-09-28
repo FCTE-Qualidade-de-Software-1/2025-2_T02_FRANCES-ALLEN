@@ -1,10 +1,51 @@
-title: Avaliação do Site do Cebraspe
-description: Projeto da disciplina Qualidade de Software 1 (FGA315)
-remote_theme: just-the-docs/just-the-docs
+site_name: Avaliação da Qualidade do Site do Cebraspe
+repo_url: https://github.com/SEU-USUARIO/NOME-DO-REPO
+repo_name: NOME-DO-REPO
+site_url: https://SEU-USUARIO.github.io/NOME-DO-REPO
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentação
-      nav_order: 1
-      dir: docs
+nav:
+  - Início: "index.md"
+  - Fase 1 - Definição dos Requisitos:
+      - Fase 1: docs/fase1.md
+      - Fase 2: docs/fase2.md
+      - Fase 3: docs/fase3.md
+      - Fase 4: docs/fase4.md
+  - Tabelas de Contribuição:
+      - Ponto de Controle 1: docs/contribuicao1.md
+      - Ponto de Controle 2: docs/contribuicao2.md
+  - Outras Entregas:
+      - Atividades:
+          - Slide Avaliação de Software: docs/atividade1.md
+          - Objetivo de Medição: docs/gqm.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: orange
+      toggle:
+        icon: material/eye
+        name: Mudar para o modo escuro
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/eye-outline
+        name: Mudar para o modo claro
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - panzoom:
+      key: "none"
+      full_screen: True
