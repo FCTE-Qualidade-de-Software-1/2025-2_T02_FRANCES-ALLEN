@@ -1,0 +1,9 @@
+title: Avaliação do Site do Cebraspe
+description: Projeto da disciplina Qualidade de Software 1 (FGA315)
+theme: just-the-docs
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentação
+      nav_order: 1
