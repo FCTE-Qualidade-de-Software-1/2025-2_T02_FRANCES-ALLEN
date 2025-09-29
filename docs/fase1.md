@@ -111,4 +111,4 @@ Esta avaliação se conecta aos seguintes **Objetivos de Desenvolvimento Sustent
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
 | `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 28/09/2025 | [Maria Clara](https://github.com/alvezclari)  | | 28/09/2025 |
 | `1.1` | acrescenta informções em cada tópico de acordo com os critérios de avaliação | [Maria Clara ](https://github.com/alvezclari) | 28/09/2025 |  | | |
-
+| `1.2` | acrescenta tabela de priorização | [Daniel Ferreira](https://github.com/DanielFsR) | 29/09/2025 | [Maria Clara](https://github.com/alvezclari) | | 29/09/2025|
