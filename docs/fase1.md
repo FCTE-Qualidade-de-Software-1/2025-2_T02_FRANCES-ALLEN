@@ -52,6 +52,21 @@ Os critérios de priorização adotados para a escolha foram:
 - **Impacto no Usuário Final:** Ambas as características têm um impacto direto e significativo na experiência do usuário do site do Cebraspe. Um site não confiável (com falhas, indisponibilidade) ou não portátil (não acessível em diferentes dispositivos/navegadores) impede o usuário de realizar suas tarefas essenciais (inscrição, consulta de resultados).
 - **Relevância para o Cebraspe:** A credibilidade e a abrangência do Cebraspe dependem diretamente da confiabilidade de seus sistemas e da capacidade de alcançar o maior número possível de candidatos, independentemente da tecnologia que utilizam. Falhas ou limitações de acesso podem prejudicar a imagem da instituição e a eficácia de seus processos seletivos.
 
+### Priorização MoSCoW
+
+Aplicação da técnica *MoSCoW* para reforçar a priorização:
+
+| Categoria   | Característica de Qualidade | Justificativa |
+|-------------|------------------------------|---------------|
+| *Must have* | Confiabilidade | É de suma importância que o site esteja sempre disponível e funcione sem falhas, especialmente em períodos críticos de concursos. Falhas podem resultar em perda de credibilidade e prejuízos diretos aos usuários. |
+| *Must have* | Portabilidade | É fundamental que o site seja acessível em qualquer dispositivo e navegador para garantir a inclusão no acesso às informações para todos os candidatos |
+| *Should have* | Segurança | Não é o foco principal desta avaliação, porém é de alta importância para proteger dados e garantir a integridade dos processos. |
+| *Should have* | Manutenibilidade | Facilita evolução e correção do sistema no longo prazo. |
+| *Could have* | Eficiência de Desempenho | Um site rápido melhora a experiência, mas confiabilidade/portabilidade são mais críticas para esta avaliação. |
+| *Could have* | Compatibilidade | Embora relacionada à portabilidade, já é contemplada em grande parte pelos requisitos de acessibilidade em diferentes dispositivos e navegadores. |
+
+
+
 O objetivo da nossa avaliação é identificar pontos fortes e áreas de melhoria para otimizar o site do Cebraspe. A priorização de confiabilidade e portabilidade está diretamente alinhada a este propósito, pois a melhoria nessas características impactará diretamente a satisfação do usuário, a credibilidade da instituição e a eficiência dos processos seletivos.
  
 ## 5. Escopo, Profundidade e Objetos de Avaliação
@@ -96,4 +111,4 @@ Esta avaliação se conecta aos seguintes **Objetivos de Desenvolvimento Sustent
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
 | `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 28/09/2025 | [Maria Clara](https://github.com/alvezclari)  | | 28/09/2025 |
 | `1.1` | acrescenta informções em cada tópico de acordo com os critérios de avaliação | [Maria Clara ](https://github.com/alvezclari) | 28/09/2025 |  | | |
-
+| `1.2` | acrescenta tabela de priorização | [Daniel Ferreira](https://github.com/DanielFsR) | 29/09/2025 | [Maria Clara](https://github.com/alvezclari) | | 29/09/2025|
