@@ -2,7 +2,7 @@
 
 
 ## 1. Propósito da Avaliação 
-O propósito desta avaliação é analisar o site do CEBRASPE sob a ótica das características de qualidade de software selecionadas Confiabilidade e Portabilidade, a fim de identificar como o sistema se comporta em relação a esses atributos, propor melhorias e verificar alinhamento com as necessidades dos usuários.
+O propósito desta avaliação é analisar o site do CEBRASPE sob a ótica das características de qualidade de software selecionadas [Confiabilidade e Portabilidade], a fim de identificar como o sistema se comporta em relação a esses atributos, propor melhorias e verificar alinhamento com as necessidades dos usuários.
 
 ### 1.1 Produto e versão a ser analisada
 - Nome do Produto: Site do CEBRASPE
@@ -36,8 +36,8 @@ O site do CEBRASPE é um sistema de informação web que atua como um portal par
 - **Dependências:** O site depende de um servidor web e banco de dados para armazenar informações de concursos e outros conteúdos.
 
 ## 3. Modelo de Qualidade
-[**sugestão:** Para esta avaliação, será utilizado o modelo de qualidade ISO/IEC 25010 (SQuaRE), que fornece um framework abrangente para a avaliação da qualidade de produtos de software. Este modelo será adaptado para focar nas características de confiabilidade e portabilidade, que são as características priorizadas para esta avaliação.] 
-<br> **incluir representação grafica conforme solicitado nos criterios de avaliação*
+Para esta avaliação, será utilizado o modelo de qualidade ISO/IEC 25010 (SQuaRE), que fornece um framework abrangente para a avaliação da qualidade de produtos de software. Este modelo será adaptado para focar nas características de confiabilidade e portabilidade, que são as características priorizadas para esta projeto.
+
 
 ## 4. Características de Qualidade de Software Avaliadas 
 As características de qualidade de software escolhidas para esta avaliação, com base na norma ISO/IEC 25010 (SQuaRE), são: Confiabilidade e Portabilidade. 
@@ -77,7 +77,7 @@ as páginas públicas disponíveis e a navegação através das principais funci
 
 Serão utilizadas ferramentas e técnicas de análise estática e dinâmica, bem como testes de compatibilidade e responsividade.
 
-**Objetos de Avaliação:** [sugestão]
+**Objetos de Avaliação:**
 - Disponibilidade do site (tempo de atividade).
 - Compatibilidade com diferentes navegadores (Chrome, Firefox, Safari).
 - Responsividade em diferentes tamanhos de tela (desktop, tablet, smartphone).
