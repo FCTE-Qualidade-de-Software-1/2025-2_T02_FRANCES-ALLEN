@@ -2,7 +2,7 @@
 
 
 ## 1. Propósito da Avaliação 
-O propósito desta avaliação é analisar o site do CEBRASPE sob a ótica das características de qualidade de software selecionadas **[a definir: Confiabilidade e Manutenibilidade]**, a fim de identificar como o sistema se comporta em relação a esses atributos, propor melhorias e verificar alinhamento com as necessidades dos usuários.
+O propósito desta avaliação é analisar o site do CEBRASPE sob a ótica das características de qualidade de software selecionadas Confiabilidade e Portabilidade, a fim de identificar como o sistema se comporta em relação a esses atributos, propor melhorias e verificar alinhamento com as necessidades dos usuários.
 
 ### 1.1 Produto e versão a ser analisada
 - Nome do Produto: Site do CEBRASPE
