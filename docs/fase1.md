@@ -102,7 +102,18 @@ Esta avaliação se conecta aos seguintes **Objetivos de Desenvolvimento Sustent
 **ODS 16 – Paz, Justiça e Instituições Eficazes**  
 - **Meta 16.6**: Desenvolver instituições eficazes, responsáveis e transparentes em todos os níveis.  
 - **Meta 16.10**: Assegurar o acesso público à informação e proteger as liberdades fundamentais.  
-- **Justificativa**: O Cebraspe atua em processos de seleção pública, sendo fundamental que seu site apresente confiabilidade, disponibilidade e segurança. Isso fortalece a transparência, a justiça e a confiança nas instituições responsáveis por concursos e certificações.  
+- **Justificativa**: O Cebraspe atua em processos de seleção pública, sendo fundamental que seu site apresente confiabilidade, disponibilidade e segurança. Isso fortalece a transparência, a justiça e a confiança nas instituições responsáveis por concursos e certificações.
+
+## Tabela de Contribuição 
+
+|  Matrícula |  Nome  |  Contribuição (%) |
+|-------------|------------------|---------------------|
+| 222006632 | [Daniel Ferreira](https://github.com/DanielFsR) | 16,7 |
+| 200017772 | [Fellipe Silva](https://github.com/fellipepcs) | 16,7 |
+| 222006801 | [Henrique Carvalho](https://github.com/henriquecarv3) | 16,7 |
+| 222006893 | [Kaio Macedo](https://github.com/bigkaio) | 16,7 |
+| 221008329 | [Maria Clara](https://github.com/alvezclari) | 16,7 |
+| 221037975 | [Natalia Rodrigues](https://github.com/Natyrodrigues) | 16,7 |
 
 
 ## Histórico de Versões
@@ -112,3 +123,4 @@ Esta avaliação se conecta aos seguintes **Objetivos de Desenvolvimento Sustent
 | `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 28/09/2025 | [Maria Clara](https://github.com/alvezclari)  | | 28/09/2025 |
 | `1.1` | acrescenta informções em cada tópico de acordo com os critérios de avaliação | [Maria Clara ](https://github.com/alvezclari) | 28/09/2025 |  | | |
 | `1.2` | acrescenta tabela de priorização | [Daniel Ferreira](https://github.com/DanielFsR) | 29/09/2025 | [Maria Clara](https://github.com/alvezclari) | | 29/09/2025|
+| `1.3` | acrescenta tabela de contribuição | [Maria Clara](https://github.com/alvezclari) | 30/09/2025 |  | | |
