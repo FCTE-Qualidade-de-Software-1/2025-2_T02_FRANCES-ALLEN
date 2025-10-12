@@ -25,6 +25,7 @@ nav:
   - Início: index.md
   - Fases:
       - "Fase 1 - Definição dos Requisitos": fase1.md
+      - "Fase 2 - Definição das Métricas": fase2.md
 extra:
   social:
     - icon: fontawesome/brands/github
