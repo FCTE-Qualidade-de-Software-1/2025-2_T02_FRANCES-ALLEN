@@ -77,6 +77,7 @@ EM BREVE
 | :----: | --------- | --------- | :--------------: | 
 | `1.0` | versão inicial do documento | [Natalia ](https://github.com/Natyrodrigues) | 28/09/2025 |
 | `1.1` | revisando detalhes e adicionando tabela de integrantes | [Maria Clara ](https://github.com/alvezclari) | 28/09/2025 |  
+| `1.2` | adição do link e descrição da fase 2 | [Natalia ](https://github.com/Natyrodrigues) | 12/10/2025 |
 
 
 
