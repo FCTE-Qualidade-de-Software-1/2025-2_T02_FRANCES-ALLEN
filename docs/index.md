@@ -61,8 +61,9 @@ Os resultados desta avaliação visam identificar pontos fortes e áreas de melh
 
  A Fase 1 consiste na definição do propósito da avaliação, identificação do tipo de produto e suas características, mapeamento das partes interessadas e seus papéis, e a especificação inicial do modelo de qualidade a ser utilizado.
  
-#### [Fase 2]
-EM BREVE
+#### [Fase 2 - Definição de Métricas](./fase2.md)
+
+A segunda fase será para o grupo selecionar as métricas, definir os níveis de pontuação dessas métricas e seus critérios para julgamento.
 
 #### [Fase 3]
 EM BREVE
