@@ -127,7 +127,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 ## 5. Considerações Metodológicas
 
-**Ferramentas Sugeridas:**
+**Ferramentas:**
 
 - Lighthouse (Chrome DevTools): avaliação automática de desempenho, acessibilidade, responsividade e compatibilidade  
 - Pingdom / UptimeRobot: monitoramento de disponibilidade (uptime, tempo de resposta)  
