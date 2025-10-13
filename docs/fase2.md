@@ -56,7 +56,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | **M2: Taxa de Erros HTTP 5xx sob Carga (%)** | Proporção de requisições que resultam em erros de servidor durante testes de carga. |
 
  
- ### Mais Questões de Avaliação e Métricas
+#### Mais Questões de Avaliação e Métricas
 | Subcaracterística (ISO 25010) | Questão de Avaliação | Métricas |
 |-------------------------------|----------------------|-----------|
 | **Disponibilidade** | O site do Cebraspe permanece acessível continuamente, especialmente durante períodos críticos (ex.: abertura de inscrições)? | - Taxa de disponibilidade (% uptime): tempo total disponível ÷ tempo total observado × 100 <br> - Tempo médio de inatividade (MTBF): média de tempo entre falhas ou indisponibilidades <br> - Tempo de recuperação (MTTR): tempo médio até o restabelecimento após falha |
@@ -184,3 +184,4 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 12/10/2025| [Maria Clara ](https://github.com/alvezclari)    |  | 12/10/2025 |
 | `1.1` | acrescenta informções em cada tópico, folha de abstração e complementa conteúdo em **Objetivos de Medição: Questões de Avaliação e Métricas** | [Maria Clara ](https://github.com/alvezclari) | 12/10/2025 |  | | |
 | `1.2` | adiciona referências e tabela de contribuição | [Henrique Carvalho](https://github.com/henriquecarv3) | 12/10/2025 |  | | |
+
