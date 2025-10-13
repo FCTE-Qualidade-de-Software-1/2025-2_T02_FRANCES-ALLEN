@@ -91,7 +91,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | **M2: Percentual de Quebra de Layout em Dispositivos Móveis (%)** | Proporção de telas ou componentes com falhas de layout em dispositivos móveis. |
 
 
-### Mais Questões de Avaliação e Métricas
+
+#### Mais Questões de Avaliação e Métricas
 
 | Subcaracterística (ISO 25010) | Questão de Avaliação | Métricas |
 |-------------------------------|----------------------|-----------|
