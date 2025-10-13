@@ -154,12 +154,6 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 ---
 
-## 7. Próximos Passos
-
-- Consolidação dos resultados em relatório técnico (Fase 3)  
-- Proposição de melhorias com base nas não conformidades observadas  
-- Reavaliação futura após implementação das correções
-
 ## Referências Bibliográficas
 
 **FENTON, Norman; BIEMAN, James.** *Software Metrics: A Rigorous and Practical Approach.* 3. ed. Boca Raton: CRC Press, 2015. Acesso em: 12 out. 2025.
