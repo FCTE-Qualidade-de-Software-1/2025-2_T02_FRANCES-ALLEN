@@ -158,8 +158,23 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 - Consolidação dos resultados em relatório técnico (Fase 3)  
 - Proposição de melhorias com base nas não conformidades observadas  
 - Reavaliação futura após implementação das correções
-  
 
+## Referências Bibliográficas
+
+**FENTON, Norman; BIEMAN, James.** *Software Metrics: A Rigorous and Practical Approach.* 3. ed. Boca Raton: CRC Press, 2015. Acesso em: 12 out. 2025.
+
+**BASILI, Victor R. et al.** *Linking Software Development and Business Strategy through Measurement.* *Computer*, v. 43, n. 4, p. 57–65, abr. 2010. Acesso em: 12 out. 2025.
+
+## Tabela de Contribuição 
+
+|  Matrícula |  Nome  |  Contribuição (%) |
+|-------------|------------------|---------------------|
+| 222006632 | [Daniel Ferreira](https://github.com/DanielFsR) | 16,7 |
+| 200017772 | [Fellipe Silva](https://github.com/fellipepcs) | 16,7 |
+| 222006801 | [Henrique Carvalho](https://github.com/henriquecarv3) | 16,7 |
+| 222006893 | [Kaio Macedo](https://github.com/bigkaio) | 16,7 |
+| 221008329 | [Maria Clara](https://github.com/alvezclari) | 16,7 |
+| 221037975 | [Natalia Rodrigues](https://github.com/Natyrodrigues) | 16,7 |
 
 ## Histórico de Versões
 
@@ -167,3 +182,4 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
 | `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 12/10/2025| [Maria Clara ](https://github.com/alvezclari)    |  | 12/10/2025 |
 | `1.1` | acrescenta informções em cada tópico, folha de abstração e complementa conteúdo em **Objetivos de Medição: Questões de Avaliação e Métricas** | [Maria Clara ](https://github.com/alvezclari) | 12/10/2025 |  | | |
+| `1.2` | adiciona referências e tabela de contribuição | [Henrique Carvalho](https://github.com/henriquecarv3) | 12/10/2025 |  | | |
