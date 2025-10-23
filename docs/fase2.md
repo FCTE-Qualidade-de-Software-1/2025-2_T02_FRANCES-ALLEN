@@ -37,7 +37,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 |-----------|------------|
 | **Analisar** | Site do Cebraspe |
 | **Para o propósito de** | Avaliar a consistência e a disponibilidade do sistema em momentos de alta demanda |
-| **Com respeito a** | Confiabilidade (a capacidade do software de manter seu nível de desempenho sob condições estabelecidas por um período de tempo) |
+| **Com respeito a** | Confiabilidade |
 | **Do ponto de vista de** | Candidatos a concursos (usuários finais) e equipe de desenvolvimento |
 | **No contexto da** | Disciplina de Qualidade de Software |
 
@@ -47,6 +47,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 |----------|--------------------|
 | **Q1:** Qual o tempo de atividade (uptime) do site durante períodos de alta demanda, como na publicação de editais e resultados? | **H1.1:** O tempo de atividade (uptime) do site será inferior a 99,5% durante as semanas de maior acesso, indicando potenciais falhas de disponibilidade que afetam a experiência do usuário. |
 | **Q2:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H2.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
+| **Q3:** O sistema consegue retornar ao estado operacional após falhas ou interrupções? | **H3.1:** O tempo médio para recuperação (MTTR) do sistema após uma falha crítica excederá 30 minutos, resultando em um período prolongado de indisponibilidade para os usuários.
+| **Q4:** O site apresenta falhas recorrentes ou instabilidades? | **H6.1:** A taxa de erros (ex.: HTTP 5xx) do site excederá 0,1% do total de requisições em uma semana, indicando instabilidades recorrentes que afetam a experiência do usuário.
 
 #### 2.1.2. Seleção das Métricas
 
@@ -54,15 +56,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 |----------|------------|
 | **M1: Uptime do Site (%)** | Percentual de tempo em que o site esteve operacional e acessível. |
 | **M2: Taxa de Erros HTTP 5xx sob Carga (%)** | Proporção de requisições que resultam em erros de servidor durante testes de carga. |
-
- 
-#### Mais Questões de Avaliação e Métricas
-| Subcaracterística (ISO 25010) | Questão de Avaliação | Métricas |
-|-------------------------------|----------------------|-----------|
-| **Disponibilidade** | O site do Cebraspe permanece acessível continuamente, especialmente durante períodos críticos (ex.: abertura de inscrições)? | - Taxa de disponibilidade (% uptime): tempo total disponível ÷ tempo total observado × 100 <br> - Tempo médio de inatividade (MTBF): média de tempo entre falhas ou indisponibilidades <br> - Tempo de recuperação (MTTR): tempo médio até o restabelecimento após falha |
-| **Tolerância a falhas** | O sistema mantém o funcionamento mesmo em caso de falhas parciais ou sobrecarga de acesso? | - Tempo de resposta sob carga (s) <br> - Taxa de erro (%): número de erros de servidor (HTTP 5xx) ÷ total de requisições |
-| **Recuperabilidade** | O sistema consegue retornar ao estado operacional após falhas ou interrupções? | - Tempo de restabelecimento automático <br> - Integridade dos dados após falhas |
-| **Maturidade** | O site apresenta falhas recorrentes ou instabilidades? | - Número de incidentes reportados por período <br> - Tempo médio entre incidentes (MTBI) |
+| **M3:** Tempo Médio para Recuperação (MTTR)|	Tempo médio necessário para restaurar o sistema à operação normal após uma falha ou interrupção, considerando o período desde a detecção até a resolução completa.
+| **M4:** Taxa de Erros HTTP 5xx	| Percentual de requisições que resultam em erros do lado do servidor (códigos HTTP 5xx) em relação ao total de requisições, indicando instabilidade ou falhas internas.
 
 ---
 
@@ -80,8 +75,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 | Questão | Hipótese Associada |
 |----------|--------------------|
-| **Q1:** O site é renderizado corretamente nos navegadores mais populares (Chrome, Firefox, Safari, Edge)? | **H3.1:** A análise de compatibilidade visual e funcional revelará inconsistências de layout ou funcionalidades quebradas em pelo menos dois dos navegadores secundários (Firefox, Safari, Edge) em comparação com o Chrome. |
-| **Q2:** A interface do site se adapta de forma responsiva a diferentes tamanhos de tela (desktop, tablet, smartphone)? | **H4.1:** A avaliação da responsividade mostrará que elementos da interface se sobrepõem, são cortados ou se tornam inacessíveis em telas de smartphones, especialmente em modo paisagem. |
+| **Q1:** O site é renderizado corretamente nos navegadores mais populares? | **H1.1:** A análise de compatibilidade visual e funcional revelará inconsistências de layout ou funcionalidades quebradas em pelo menos dois dos navegadores secundários em comparação com o Chrome. |
+| **Q2:** A interface do site se adapta de forma responsiva a diferentes tamanhos de tela? | **H2.1:** A avaliação da responsividade mostrará que elementos da interface se sobrepõem, são cortados ou se tornam inacessíveis em telas de smartphones, especialmente em modo paisagem. |
 
 #### 2.2.2. Seleção das Métricas
 
@@ -90,15 +85,6 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | **M1: Inconsistências de Renderização por Navegador** | Contagem de problemas visuais ou funcionais detectados em cada navegador testado. |
 | **M2: Percentual de Quebra de Layout em Dispositivos Móveis (%)** | Proporção de telas ou componentes com falhas de layout em dispositivos móveis. |
 
-
-
-#### Mais Questões de Avaliação e Métricas
-
-| Subcaracterística (ISO 25010) | Questão de Avaliação | Métricas |
-|-------------------------------|----------------------|-----------|
-| **Adaptabilidade** | O site se adapta automaticamente a diferentes tamanhos de tela (desktop, tablet, smartphone)? | - Taxa de conformidade de layout responsivo (%): páginas funcionais ÷ total de páginas testadas × 100 <br> - Pontuação de responsividade (via Lighthouse) |
-| **Instalabilidade / Acessibilidade técnica** | O site é acessível de diferentes navegadores e sistemas operacionais sem necessidade de configurações adicionais? | - Compatibilidade entre navegadores (%): nº de navegadores em que o site funciona ÷ nº de navegadores testados <br> - Compatibilidade entre sistemas operacionais (%): nº de sistemas compatíveis ÷ nº de sistemas testados |
-| **Substituibilidade / Tecnologias assistivas** | É possível acessar o site com tecnologias assistivas e diferentes interfaces (ex.: navegador mobile, leitor de tela)? | - Taxa de compatibilidade com leitores de tela (%) <br> - Pontuação de acessibilidade (Lighthouse / WAVE) |
 
 ---
 
@@ -110,6 +96,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | **Propósito** | Avaliar e melhorar a confiabilidade e portabilidade do site para garantir acessibilidade e boa experiência do usuário. |
 | **Ponto de Vista** | **Organizacional:** CEBRASPE (garantir credibilidade e eficiência).<br> **Usuário Final:** Candidatos a concursos (acesso ininterrupto e consistente). <br> **Desenvolvedor:** Equipe de desenvolvimento (identificar áreas de melhoria no código e na infraestrutura). |
 | **Foco da Qualidade** | Confiabilidade (disponibilidade e resiliência a picos de carga) <br> Portabilidade (compatibilidade e responsividade) |
+| **Hipóteses de Referência** | O tempo de atividade do site será inferior a 99,5% em picos de demanda, impactando a experiência do usuário. <br> A taxa de erros (HTTP 5xx) excederá 0,5% em testes de carga com mais de 80% da capacidade do servidor. <br>  Inconsistências de layout e funcionalidades quebradas serão observadas em pelo menos dois navegadores secundários. |
 | **Fatores de Variação** | **Volume de tráfego:** Flutuações inesperadas devido a eventos específicos (lançamento de edital, resultados). <br> **Atualizações de software:** Novas versões de navegadores, sistemas operacionais ou bibliotecas de desenvolvimento. <br> **Infraestrutura:** Mudanças na configuração de servidores, balanceadores de carga ou rede.   <br> **Complexidade do conteúdo:** Páginas com maior dinamismo ou elementos multimídia |
 | **Impacto dos Fatores de Variação** | **Volume de tráfego inesperado:** Pode sobrecarregar o servidor, aumentando a taxa de erros e diminuindo o uptime. <br> **Atualizações de navegadores:** Podem introduzir novas inconsistências de renderização ou afetar a responsividade.  <br> **Mudanças na infraestrutura do servidor:** Podem impactar diretamente a disponibilidade e o desempenho geral do site.  <br> **Complexidade das páginas:** Pode aumentar a probabilidade de quebras de layout e exigir mais recursos do navegador, afetando a experiência em dispositivos menos potentes. |
 
@@ -154,6 +141,9 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 ---
 
+## 7. Diagrama GQM
+[inserir diagrama]
+
 ## Referências Bibliográficas
 
 **FENTON, Norman; BIEMAN, James.** *Software Metrics: A Rigorous and Practical Approach.* 3. ed. Boca Raton: CRC Press, 2015. Acesso em: 12 out. 2025.
@@ -175,7 +165,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 | Versão | Descrição | Responsável | Data  | Revisor(es) | Detalhes da Revisão | Data da revisão |
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
-| `1.0` | documentação inicial e estrutura geral | [Natalia ](https://github.com/Natyrodrigues) | 12/10/2025| [Maria Clara ](https://github.com/alvezclari)    |  | 12/10/2025 |
-| `1.1` | acrescenta informções em cada tópico, folha de abstração e complementa conteúdo em **Objetivos de Medição: Questões de Avaliação e Métricas** | [Maria Clara ](https://github.com/alvezclari) | 12/10/2025 |  | | |
+| `1.0` | documentação inicial e estrutura geral | [Natalia](https://github.com/Natyrodrigues) | 12/10/2025| [Maria Clara ](https://github.com/alvezclari)    |  | 12/10/2025 |
+| `1.1` | acrescenta informções em cada tópico, folha de abstração e complementa conteúdo em **Objetivos de Medição: Questões de Avaliação e Métricas** | [Maria Clara](https://github.com/alvezclari) | 12/10/2025 |  | | |
 | `1.2` | adiciona referências e tabela de contribuição | [Henrique Carvalho](https://github.com/henriquecarv3) | 12/10/2025 |  | | |
+| `1.3` | correções gerais | [Maria Clara](https://github.com/alvezclari) | 22/10/2025|    |  |  |
 
