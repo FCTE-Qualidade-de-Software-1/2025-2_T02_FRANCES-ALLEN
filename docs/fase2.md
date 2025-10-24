@@ -170,4 +170,5 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | `1.1` | acrescenta informções em cada tópico, folha de abstração e complementa conteúdo em **Objetivos de Medição: Questões de Avaliação e Métricas** | [Maria Clara](https://github.com/alvezclari) | 12/10/2025 |  | | |
 | `1.2` | adiciona referências e tabela de contribuição | [Henrique Carvalho](https://github.com/henriquecarv3) | 12/10/2025 |  | | |
 | `1.3` | correções gerais | [Maria Clara](https://github.com/alvezclari) | 22/10/2025|    |  |  |
+| `1.4` | adicionado diagrama gqm | [Fellipe Pereira](https://github.com/fellipepcs) | 23/10/2025|    |  |  |
 
