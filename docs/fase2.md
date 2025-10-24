@@ -142,7 +142,8 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 ---
 
 ## 7. Diagrama GQM
-[inserir diagrama]
+
+![Diagrama GQM ilustrando a hierarquia de Objetivos, Questões e Métricas](../img/diagrama.png)
 
 ## Referências Bibliográficas
 
