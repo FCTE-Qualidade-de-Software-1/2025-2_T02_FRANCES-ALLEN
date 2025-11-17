@@ -65,8 +65,8 @@ Os resultados desta avaliação visam identificar pontos fortes e áreas de melh
 
 A segunda fase será para o grupo selecionar as métricas, definir os níveis de pontuação dessas métricas e seus critérios para julgamento.
 
-#### [Fase 3]
-EM BREVE
+#### [Fase 3 - Plano de Avaliação](./fase3.md)
+O objetivo desta fase é detalhar o Plano de Avaliação para as características de Confiabilidade e Portabilidade, conforme definido na Fase 2. 
 
 #### [Fase 4]
 EM BREVE
