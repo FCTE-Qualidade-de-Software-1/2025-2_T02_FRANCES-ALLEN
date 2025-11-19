@@ -26,6 +26,7 @@ nav:
   - Fases:
       - "Fase 1 - Definição dos Requisitos": fase1.md
       - "Fase 2 - Definição das Métricas": fase2.md
+      - "Fase 3 - Planejamento da Avaliação": fase3.md
 extra:
   social:
     - icon: fontawesome/brands/github
