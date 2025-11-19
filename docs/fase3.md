@@ -106,7 +106,13 @@ https://drive.google.com/drive/u/2/folders/1EvH_bwVREh9tQuWpEAW8DweIy_RwK5xP
 
 ### 5.3 Organização e Nomeação dos Arquivos
 
-Para manter consistência e facilitar a integração com a página final, os arquivos seguirão o padrão de nomeação: '<métrica><tipo_de_evidência><data>'. Ex: M2_erro500_video_2025-11-20
+Para manter consistência e facilitar a integração com a página final, os arquivos seguirão o padrão de nomeação:
+
+ ```
+    <métrica>_<tipo_de_evidência>_<data>
+    ex: M2_erro500_video_2025-11-20
+    ex: M1_uptime_print_2025-11-19
+ ```
 
 
 ### Histórico de Versões
