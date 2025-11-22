@@ -45,19 +45,17 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 | Questão | Hipótese Associada |
 |----------|--------------------|
-| **Q1:** Qual o tempo de atividade (uptime) do site durante períodos de alta demanda, como na publicação de editais e resultados? | **H1.1:** O tempo de atividade (uptime) do site será inferior a 99,5% durante as semanas de maior acesso, indicando potenciais falhas de disponibilidade que afetam a experiência do usuário. |
-| **Q2:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H2.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
-| **Q3:** O sistema consegue retornar ao estado operacional após falhas ou interrupções? | **H3.1:** O tempo médio para recuperação (MTTR) do sistema após uma falha crítica excederá 30 minutos, resultando em um período prolongado de indisponibilidade para os usuários.
-| **Q4:** O site apresenta falhas recorrentes ou instabilidades? | **H4.1:** A taxa de erros (ex.: HTTP 5xx) do site excederá 0,1% do total de requisições em uma semana, indicando instabilidades recorrentes que afetam a experiência do usuário.
+| **Q1:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H1.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
+| **Q2:** O sistema consegue retornar ao estado operacional após falhas ou interrupções? | **H2.1:** O tempo médio para recuperação (MTTR) do sistema após uma falha crítica excederá 30 minutos, resultando em um período prolongado de indisponibilidade para os usuários.
+| **Q3:** O site apresenta falhas recorrentes ou instabilidades? | **H3.1:** A taxa de erros (ex.: HTTP 5xx) do site excederá 0,1% do total de requisições durante o período avaliado, indicando instabilidades recorrentes que afetam a experiência do usuário.
 
 #### 2.1.2. Seleção das Métricas
 
 | Métrica | Descrição |
 |----------|------------|
-| **M1: Uptime do Site (%)** | Percentual de tempo em que o site esteve operacional e acessível. |
-| **M2: Taxa de Erros HTTP 5xx sob Carga (%)** | Proporção de requisições que resultam em erros de servidor durante testes de carga. |
-| **M3:** Tempo Médio para Recuperação (MTTR)|	Tempo médio necessário para restaurar o sistema à operação normal após uma falha ou interrupção, considerando o período desde a detecção até a resolução completa.
-| **M4:** Taxa de Erros HTTP 5xx	| Percentual de requisições que resultam em erros do lado do servidor (códigos HTTP 5xx) em relação ao total de requisições, indicando instabilidade ou falhas internas.
+| **M1: Taxa de Erros HTTP 5xx sob Carga (%)** | Proporção de requisições que resultam em erros de servidor durante testes de carga. |
+| **M2:** Tempo Médio para Recuperação (MTTR)|	Tempo médio necessário para restaurar o sistema à operação normal após uma falha ou interrupção, considerando o período desde a detecção até a resolução completa.
+| **M3:** Taxa de Erros HTTP 5xx	| Percentual de requisições que resultam em erros do lado do servidor (códigos HTTP 5xx) em relação ao total de requisições, indicando instabilidade ou falhas internas.
 
 ---
 
@@ -96,7 +94,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 | **Propósito** | Avaliar e melhorar a confiabilidade e portabilidade do site para garantir acessibilidade e boa experiência do usuário. |
 | **Ponto de Vista** | **Organizacional:** CEBRASPE (garantir credibilidade e eficiência).<br> **Usuário Final:** Candidatos a concursos (acesso ininterrupto e consistente). <br> **Desenvolvedor:** Equipe de desenvolvimento (identificar áreas de melhoria no código e na infraestrutura). |
 | **Foco da Qualidade** | Confiabilidade (disponibilidade e resiliência a picos de carga) <br> Portabilidade (compatibilidade e responsividade) |
-| **Hipóteses de Referência** | O tempo de atividade do site será inferior a 99,5% em picos de demanda, impactando a experiência do usuário. <br> A taxa de erros (HTTP 5xx) excederá 0,5% em testes de carga com mais de 80% da capacidade do servidor. <br>  Inconsistências de layout e funcionalidades quebradas serão observadas em pelo menos dois navegadores secundários. |
+| **Hipóteses de Referência** | A taxa de erros (HTTP 5xx) excederá 0,5% em testes de carga com mais de 80% da capacidade do servidor. <br>  Inconsistências de layout e funcionalidades quebradas serão observadas em pelo menos dois navegadores secundários. |
 | **Fatores de Variação** | **Volume de tráfego:** Flutuações inesperadas devido a eventos específicos (lançamento de edital, resultados). <br> **Atualizações de software:** Novas versões de navegadores, sistemas operacionais ou bibliotecas de desenvolvimento. <br> **Infraestrutura:** Mudanças na configuração de servidores, balanceadores de carga ou rede.   <br> **Complexidade do conteúdo:** Páginas com maior dinamismo ou elementos multimídia |
 | **Impacto dos Fatores de Variação** | **Volume de tráfego inesperado:** Pode sobrecarregar o servidor, aumentando a taxa de erros e diminuindo o uptime. <br> **Atualizações de navegadores:** Podem introduzir novas inconsistências de renderização ou afetar a responsividade.  <br> **Mudanças na infraestrutura do servidor:** Podem impactar diretamente a disponibilidade e o desempenho geral do site.  <br> **Complexidade das páginas:** Pode aumentar a probabilidade de quebras de layout e exigir mais recursos do navegador, afetando a experiência em dispositivos menos potentes. |
 
@@ -105,11 +103,9 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 
 | Característica | Métrica Crítica | Valor de Referência | Nível de Aceitação |
 |----------------|-----------------|------------------|------------------|
-| **Confiabilidade** | Disponibilidade | ≥ 99,5% | Aceitável |
 | **Confiabilidade** | Tempo médio de resposta | ≤ 3s | Aceitável |
 | **Confiabilidade** | Taxa de erro | ≤ 1% | Aceitável |
 | **Portabilidade** | Compatibilidade entre navegadores | ≥ 90% | Aceitável |
-| **Portabilidade** | Pontuação Lighthouse (Mobile) | ≥ 80 | Aceitável |
 | **Portabilidade** | Responsividade de layout | 100% das páginas principais | Aceitável |
 
 ## 5. Considerações Metodológicas
@@ -117,8 +113,7 @@ Cada questão abaixo está associada a um ou mais **subatributos** da ISO/IEC 25
 **Ferramentas:**
 
 - Lighthouse (Chrome DevTools): avaliação automática de desempenho, acessibilidade, responsividade e compatibilidade  
-- Pingdom / UptimeRobot: monitoramento de disponibilidade (uptime, tempo de resposta)  
-- GTmetrix: análise de tempo de carregamento e estabilidade sob carga  
+- Apache JMeter: análise de tempo de carregamento e estabilidade sob carga  
 - BrowserStack: teste de compatibilidade entre navegadores e sistemas  
 - WAVE / AXE: validação de acessibilidade  
 
