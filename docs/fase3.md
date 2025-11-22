@@ -54,8 +54,8 @@ O cronograma proposto visa a coleta paralela dos dados de Confiabilidade e Porta
 
 | Etapa                                   | Responsável(eis)        | Prazo Estimado                               |
 |----------------------------------------|--------------------------|----------------------------------------------|
-| Coleta de Confiabilidade (M1, M4)      | Analistas de Qualidade   | Dia 1           |
-| Coleta de Confiabilidade (M2)          | Avaliadores Técnicos     | Dia 2 (Execução do Teste de Carga)          |
+| Coleta de Confiabilidade (M1)      | Analistas de Qualidade   | Dias 1 a 3 (Execução do Teste de Uptime)           |
+| Coleta de Confiabilidade (M2, M4)          | Avaliadores Técnicos     | Dia 2 (Execução do Teste de Carga e de Teste de Erros)          |
 | Coleta de Confiabilidade (M3)          | Analistas de Qualidade   | Dia 3 (Análise de Logs/Histórico)         |
 | Coleta de Portabilidade (M1, M2)       | Avaliadores Técnicos     | Dia 3 (Testes de Compatibilidade e Responsividade) |
 | Consolidação dos Dados Brutos          | Analistas de Qualidade   | Dia 3                                       |
