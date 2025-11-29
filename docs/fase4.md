@@ -31,7 +31,7 @@ O teste de carga foi conduzido para responder à pergunta de medição (Q2) do m
 | **Q2:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H2.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
 
 #### Teste de confiabilidade 
-![Teste de portabilidade - desktop.jpeg](./img/uptimerobot.jpeg)
+<img src="./img/uptimerobot.jpg" width="350"/>
 
 ### Processo de Configuração Teórico - Apache JMeter
 
@@ -293,24 +293,24 @@ Foram realizados 18 testes (3 páginas x 6 resoluções). A análise focou na pr
 
 ## Imagens dos testes de portabilidade
 
-#### Teste de portabilidade - `desktop`
-![Teste de portabilidade - desktop.jpeg](./img/desktop.jpeg)
+#### Teste de portabilidade - desktop.jpeg
+<img src="./img/desktop.jpeg" width="350"/>
 
-#### Teste de portabilidade - `smartphone-360 x 800`
-![Teste de portabilidade - smartphone-360 x 800 .jpeg](./img/smartphone-360%20x%20800%20.jpeg)
+#### Teste de portabilidade - smartphone-360 x 800.jpeg
+<img src="./img/smartphone-360%20x%20800%20.jpeg" width="350"/>
 
-#### Teste de portabilidade - `smartphone-393 x 851`
-![Teste de portabilidade - smartphone-393 x 851.jpeg](./img/smartphone-393%20x%20851.jpeg)
+#### Teste de portabilidade - smartphone-393 x 851.jpeg
+<img src="./img/smartphone-393%20x%20851.jpeg" width="350"/>
 
-#### Teste de portabilidade - `tablet`
-![Teste de portabilidade - tablet.jpeg](./img/tablet.jpeg)
+#### Teste de portabilidade - tablet.jpeg
+<img src="./img/tablet.jpeg" width="350"/>
 
 ## Tabela de Resultados vs Hipóteses
 
 | Hipótese | Resultado obtido | Status | Justificativa |
 |---|---:|:---:|---|
 | **H1.1 – Uptime < 99,5% em picos** | **100%** (monitoramento 3 dias) | **Refutada** | Não houve queda no período monitorado; porém o monitoramento pode não ter coincidido com picos reais. |
-| **H2.1 – Erros 5xx > 0,5% quando >80% da capacidade** | Teste de carga → **87,2%** de erros 5xx | ✅ **Validada** | Instabilidade severa sob alta carga (simulação: 800 threads, 30 min). |
+| **H2.1 – Erros 5xx > 0,5% quando >80% da capacidade** | Teste de carga → **87,2%** de erros 5xx | **Validada** | Instabilidade severa sob alta carga (simulação: 800 threads, 30 min). |
 | **H3.1 – MTTR > 30 min** | **19,4 min** (média) |  **Refutada** | MTTR médio abaixo do limite; houve outliers (ex.: 45 min) que exigem RCA. |
 | **H4.1 – Erros 5xx > 0,1% em baixa demanda** | **0,087%** | **Refutada** | Taxa de erros em baixa demanda dentro do critério; sistema está estável em operação normal. |
 | **Portabilidade H1.1 – inconsistências em ≥2 navegadores** | Compatibilidade ≈ **95%** | **Refutada** | Não foram encontradas inconsistências críticas em múltiplos navegadores. |
