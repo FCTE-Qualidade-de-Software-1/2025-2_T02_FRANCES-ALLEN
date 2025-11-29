@@ -71,45 +71,9 @@ A rastreabilidade é crucial para garantir a validade e a auditabilidade da aval
 |----------------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------|
 | Definição da Avaliação (Fase 2)        | Documento GQM (Seção 1)                                    | Roteiro formal que define o que e como medir.                      | O plano de coleta deve ser 100% fiel ao GQM da Fase 2.             |
 | Dados Brutos Coletados                 | Planilha de Coleta de Dados                                | Armazenamento dos resultados numéricos e qualitativos (ex: contagem de inconsistências, percentuais de uptime). | Garante a auditabilidade e a base para o julgamento.               |
-| Relatórios de Ferramentas              | Logs de Teste de Carga, Relatórios de Uptime, Screenshots de Inconsistências | Evidências primárias da execução dos testes.                       | Valida a execução do método e fornece dados brutos.                |
+| Relatórios de Ferramentas              | Logs de Teste de Carga, Relatórios de Uptime | Evidências primárias da execução dos testes.                       | Valida a execução do método e fornece dados brutos.                |
 | Relatório Final da Fase 3              | Documento desta Fase                                       | Consolidação do Plano de Avaliação e preparação para a Fase 4 (Execução). | Deve referenciar todas as fontes de evidência e o GQM.             |
 
-### 5. Registro e Armazenamento das Evidências
-
-A documentação das evidências utilizadas na avaliação é fundamental para garantir rastreabilidade e facilitar a montagem da entrega final no GitHub Pages. Para isso, foi definido um fluxo centralizado para o armazenamento de dados, capturas de tela e vídeos produzidos durante a execução das métricas.
-
-#### 5.1 Armazenamento dos Dados e Capturas de Tela
-
-Os dados coletados durante a execução das métricas — incluindo valores numéricos, incidentes observados e anotações qualitativas — serão concentrados em um documento compartilhado. Esse mesmo arquivo também será utilizado para armazenar capturas de tela relevantes para as análises.
-
-| Tipo de Evidência | Local de Armazenamento | Descrição do Uso |
-|-------------------|------------------------|------------------|
-| Dados numéricos, medições e observações | Documento compartilhado no Word Online | Registro contínuo dos dados brutos coletados, servindo como base para a análise e para a composição da entrega da Fase 4. |
-| Capturas de tela (falhas, erros, inconsistências) | Documento compartilhado no Word Online | Armazenamento visual das evidências encontradas durante a execução das métricas. |
-
-**Documento compartilhado:**  
-[Link Docs](https://unbbr-my.sharepoint.com/:w:/g/personal/221037975_aluno_unb_br/EQaMnxEFQ0xNr9om1JMM5qcB_tgKDlwD1MvL30p7NcQyuQ?e=hA52o8)
-
-#### 5.2 Armazenamento dos Vídeos dos Testes
-
-Para cada métrica será gravado um vídeo curto demonstrando o procedimento de coleta, garantindo transparência e verificabilidade do processo. As gravações serão feitas utilizando o OBS Studio.
-
-| Tipo de Evidência | Método de Produção | Local de Armazenamento | Descrição |
-|-------------------|---------------------|--------------------------|-----------|
-| Vídeos da execução das métricas | Gravação via OBS Studio | Drive compartilhado do grupo | Registro audiovisual da execução dos testes, permitindo revalidação e consulta posterior. |
-
-**Pasta no Drive:**  
-[Link Drive](https://drive.google.com/drive/u/2/folders/1EvH_bwVREh9tQuWpEAW8DweIy_RwK5xP)
-
-### 5.3 Organização e Nomeação dos Arquivos
-
-Para manter consistência e facilitar a integração com a página final, os arquivos seguirão o padrão de nomeação:
-
- ```
-    <métrica>_<tipo_de_evidência>_<data>
-    ex: M2_erro500_video_2025-11-20
-    ex: M1_uptime_print_2025-11-19
- ```
 
 
 ### Histórico de Versões
