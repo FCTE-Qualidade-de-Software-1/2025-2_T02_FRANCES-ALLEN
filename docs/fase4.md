@@ -305,6 +305,7 @@ Foram realizados 18 testes (3 páginas x 6 resoluções). A análise focou na pr
 | Versão | Descrição | Responsável | Data  | Revisor(es) | Detalhes da Revisão | Data da revisão |
 | :----: | --------- | --------- | :--------------: | ----------- | :-------------: | :-------------: |
 | `1.0` | documentação inicial e estrutura geral | [Maria Clara](https://github.com/alvezclari) | 22/11/2025|   |  | |
+| `1.1` | revisão de algumas partes da estrutura | [Maria Clara](https://github.com/alvezclari) | 29/11/2025|   |  | |
 
 
 
