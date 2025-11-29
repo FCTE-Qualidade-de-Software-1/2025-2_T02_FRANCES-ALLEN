@@ -68,8 +68,8 @@ A segunda fase será para o grupo selecionar as métricas, definir os níveis de
 #### [Fase 3 - Plano de Avaliação](./fase3.md)
 O objetivo desta fase é detalhar o Plano de Avaliação para as características de Confiabilidade e Portabilidade, conforme definido na Fase 2. 
 
-#### [Fase 4]
-EM BREVE
+#### [Fase 4 - Execução da Avaliação](./fase4.md)
+O objetivo principal é coletar os dados das métricas definidas, validar as hipóteses estabelecidas e classificar a qualidade do software em relação às características de Confiabilidade e Portabilidade.
 
 ## Histórico de Versões
 
