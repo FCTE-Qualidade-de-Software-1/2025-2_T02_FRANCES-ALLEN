@@ -297,10 +297,10 @@ Foram realizados 18 testes (3 páginas x 6 resoluções). A análise focou na pr
 <img src="./img/desktop.jpeg" width="350"/>
 
 #### Teste de portabilidade - smartphone-360 x 800.jpeg
-<img src="./img/smartphone-360%20x%20800%20.jpeg" width="350"/>
+<img src="./img/smartphone-360x800.jpeg" width="350"/>
 
 #### Teste de portabilidade - smartphone-393 x 851.jpeg
-<img src="./img/smartphone-393%20x%20851.jpeg" width="350"/>
+<img src="./img/smartphone-393x851.jpeg" width="350"/>
 
 #### Teste de portabilidade - tablet.jpeg
 <img src="./img/tablet.jpeg" width="350"/>
