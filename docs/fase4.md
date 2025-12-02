@@ -31,7 +31,7 @@ O teste de carga foi conduzido para responder à pergunta de medição (Q2) do m
 | **Q2:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H2.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
 
 #### Teste de confiabilidade 
-![Uptime](img/uptimerobot.jpg){ width="350" }
+![Uptime](img/uptimerobot.jpg)
 
 ### Processo de Configuração Teórico - Apache JMeter
 
@@ -294,16 +294,17 @@ Foram realizados 18 testes (3 páginas x 6 resoluções). A análise focou na pr
 ## Imagens dos testes de portabilidade
 
 #### Teste de portabilidade - desktop.jpeg
-<img src="img/desktop.jpeg" width="350"/>
+![Desktop](img/desktop.jpeg){ width="350" }
 
 #### Teste de portabilidade - smartphone-360 x 800.jpeg
-<img src="img/smartphone-360x800.jpeg" width="350"/>
+![Smartphone 360x800](img/smartphone-360x800.jpeg){ width="350" }
 
 #### Teste de portabilidade - smartphone-393 x 851.jpeg
-<img src="img/smartphone-393x851.jpeg" width="350"/>
+![Smartphone 393x851](img/smartphone-393x851.jpeg){ width="350" }
 
 #### Teste de portabilidade - tablet.jpeg
-<img src="img/tablet.jpeg" width="350"/>
+![Tablet](img/tablet.jpeg){ width="350" }
+
 
 ## Tabela de Resultados vs Hipóteses
 
