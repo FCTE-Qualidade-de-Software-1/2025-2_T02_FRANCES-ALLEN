@@ -31,7 +31,7 @@ O teste de carga foi conduzido para responder à pergunta de medição (Q2) do m
 | **Q2:** Qual a taxa de erros do site ao lidar com um grande volume de acessos simultâneos? | **H2.1:** Testes de carga revelarão um aumento significativo na taxa de erros (respostas HTTP 5xx) para mais de 0,5% quando o número de usuários simultâneos ultrapassar 80% da capacidade projetada do servidor. |
 
 #### Teste de confiabilidade 
-<img src="img/uptimerobot.jpg" width="350"/>
+![Uptime](img/uptimerobot.jpg){ width="350" }
 
 ### Processo de Configuração Teórico - Apache JMeter
 
