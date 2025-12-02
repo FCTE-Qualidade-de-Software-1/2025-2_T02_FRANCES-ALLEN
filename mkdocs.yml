@@ -21,6 +21,10 @@ theme:
       toggle:
         icon: material/weather-night
         name: Modo Noturno
+
+markdown_extensions:
+  - attr_list
+  
 nav:
   - Início: index.md
   - Fases:
